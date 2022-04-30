@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SearchCharInString {
     public static void main(String[] args) {
 
-//        Here, in this code we take input a string and target , and computer will tell us weather target is exist in in staring or not ok.
+//        Here, in this code we take input a string and target , and computer will tell us weather target is exist in  string or not ok.
         String name = "PavanK";
         char target = 'v';
         System.out.println(search(name,target));//True
