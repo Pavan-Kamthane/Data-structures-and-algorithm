@@ -1,3 +1,3 @@
-# DSAwithkunal
+# DSA
 
  
