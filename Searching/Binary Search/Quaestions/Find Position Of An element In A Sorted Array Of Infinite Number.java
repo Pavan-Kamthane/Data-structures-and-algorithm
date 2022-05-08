@@ -10,9 +10,9 @@ public class findPositionOfAnelementInASortedArrayOfInfiniteNumber {
 *
 *   Only thing is we don't know the size.
 *
-*   Here we know our target is in array instead of making mid , we are now start and end
-*   are 0th and 1st index and then applying binary search in between start and end
-*   if target not found in start and end change start = start +1 and double the size of array
+*   Here we know our target is in array instead of making mid , consider start and end
+*   as 0th and 1st index and then applying binary search in between start and end
+*   if target not found in start and end change start = end +1 ,also double the size of array
 *
 *
 *
