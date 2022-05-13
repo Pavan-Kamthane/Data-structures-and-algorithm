@@ -6,7 +6,7 @@ public class BubbleSort {
 *
 * Bubble sort is one of the type of sorting , it is also known as syncing sort or exchange sort.
 *
-* In this type your gone comparing adjacent
+* In this type your going to compare adjacent elements
 *
 * Example:-
 *  pass 1 or i=0;
