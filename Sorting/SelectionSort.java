@@ -31,15 +31,18 @@ public class SelectionSort {
     public static void main(String[] args) {
 
         int[] arr = {4,5,1,2,3};
-        SelectionSort(arr);
+        SelectionSorting(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    static void SelectionSort(int[] arr){
+    static void SelectionSorting(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             int last = arr.length -i -1;
             int Max = getMax(arr,0,last) ;
-            swap(arr,Max,last);
+            // swap(arr,Max,last);
+            int temp = arr[Max];
+            arr[Max] =arr[last];
+            arr[last]= temp;
         }
     }
 
@@ -49,15 +52,14 @@ public class SelectionSort {
                 if (arr[i]>arr[max]){
                     max = i;
                 }
-
         }
         return max;
     }
 
-    static void swap(int[] arr,int first,int second){
-        int temp = arr[first];
-        arr[first] =arr[second];
-        arr[second]= temp;
-    }
+    // static void swap(int[] arr,int first,int second){
+    //     int temp = arr[first];
+    //     arr[first] =arr[second];
+    //     arr[second]= temp;
+    // }
 
 }
