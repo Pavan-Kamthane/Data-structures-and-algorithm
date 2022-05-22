@@ -11,7 +11,7 @@
  */ 
 
 
-public class Solution extends GuessGame {
+public class Solution  {
     public int guessNumber(int n) {
         int start = 1;
         int end = n;
